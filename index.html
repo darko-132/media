@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Promedio</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <main>
+        <div class="box">
+            <div class="inputEntada">
+                <h3>Inserte datos</h3>
+                <p>separados por ,</p>
+                <input type="text" id="datos" onblur="calculo()">
+            </div>
+            <div>
+                <label for="promedio">Mostar media:</label>
+                <input type="checkbox" name="" id="promedio" onclick="promedio()">
+                <label for="media">Mostar mediana:</label>
+                <input type="checkbox" name="" id="media" onchange="media()">
+                <label for="moda">Mostar moda:</label>
+                <input type="checkbox" name="" id="moda" onchange="moda()">
+            </div>
+            <div class="inputDatos">
+                <section id="inputProm" style="visibility: hidden;">
+                    <label for="resPromedio">Media:</label>
+                    <input type="text" id="resPromedio"> <br>
+                </section>
+                <section id="inputMediana" style="visibility: hidden;">
+                    <label for="resMediana">Mediana:</label>
+                    <input type="text" id="resMediana"> <label for="">Orden asendente: </label><input type="text" id="ordenMedia">
+                </section>
+                <section id="inputModa" style="visibility: hidden;">
+                    <label for="resModa">Moda:</label>
+                    <input type="text" id="resModa"> <br>
+                </section>
+            </div>
+        </div>
+
+    </main>
+    
+</body>
+<script src="./mediaMedina.js"></script>
+</html>

@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box{
+    min-height: 100px;
+    min-width: 100px;
+    margin: 30Px;
+    position: absolute;
+    padding: 5%;
+    border-radius: 10%;
+    background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+.inputEntada{
+    text-align: center;
+}
+input{
+    margin-top: 3%;
+    border-radius: 30px;
+    padding-left: 10Px;
+    
+}
